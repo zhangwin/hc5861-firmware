@@ -6,9 +6,10 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Build Lienol/openwrt //
+name: Build Lienol/openwrt
 
 on:
+  workflow_dispatch:
   release:
     types: [published]
   push:
